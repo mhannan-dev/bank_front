@@ -102,7 +102,6 @@
     <div class="container">
       <div class="row">
         <!-- End of Col-md-12 -->
-
         <div class="col-md-12">
           <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="row">
@@ -198,36 +197,7 @@
               </div>
               <!-- End of Col-md-12 -->
 
-              <!-- <div class="col-md-12">
-                  <ol class="carousel-indicators">
-                    <li
-                      data-target="#carouselExample"
-                      data-slide-to="0"
-                      class="active"
-                    >
-                      <img
-                        class="d-block w-100"
-                        src="https://fakeimg.pl/350x200/fc2525/fff,255/?text=Slider&font=lobster"
-                        alt="First slide"
-                      />
-                    </li>
-                    <li data-target="#carouselExample" data-slide-to="1">
-                      <img
-                        class="d-block w-100"
-                        src="https://fakeimg.pl/350x200/1d6d28/fff,255/?text=Problem?&font=lobster"
-                        alt="Second slide"
-                      />
-                    </li>
-                    <li data-target="#carouselExample" data-slide-to="2">
-                      <img
-                        class="d-block w-100"
-                        src="https://fakeimg.pl/350x200/3881ff/fff,255/?text=Solution Here :)&font=lobster"
-                        alt="Third slide"
-                      />
-                    </li>
-                  </ol>
-                  
-                </div> -->
+
               <!-- End of Col-md-12 -->
             </div>
             <!-- End of Row -->
@@ -254,50 +224,81 @@
         <div class="col-md-12">
           <ul class="nav nav-tabs tab-ul-bg" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="bank-tab" data-toggle="tab" href="#bank" role="tab" aria-controls="bank" aria-selected="true">
+              <a class="nav-link active" id="bank-tab" data-toggle="tab" href="#bank" role="tab" aria-controls="bank"
+                aria-selected="true">
                 <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Select Bank</option>
+                  <option value="">Bank</option>
+                  <option value="">Bank One</option>
+                  <option value="">Bank One</option>
+                  <option value="">Bank One</option>
+                  <option value="">Bank One</option>
+                  <option value="">Bank One</option>
+                  <option value="">Bank One</option>
+                </select>
+
+
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch"
+                aria-selected="false">
+                <select class="form-control m-form-control border-none" name="" id="">
+                  <option value="">Branch</option>
+                  <option value="">Branch One</option>
+                  <option value="">Branch One</option>
+                  <option value="">Branch One</option>
+                  <option value="">Branch One</option>
+
                 </select>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch" aria-selected="false">
+              <a class="nav-link" id="city-tab" data-toggle="tab" href="#city" role="tab" aria-controls="city"
+                aria-selected="false">
                 <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Select Bank</option>
-                </select>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="city-tab" data-toggle="tab" href="#city" role="tab" aria-controls="city" aria-selected="false">
-                <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Select Bank</option>
+                  <option value="">City</option>
+                  <option value="">City One</option>
+                  <option value="">City One</option>
+                  <option value="">City One</option>
+                  <option value="">City One</option>
+                  <option value="">City One</option>
+                  <option value="">City One</option>
+
                 </select>
 
               </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" id="zip-tab" data-toggle="tab" href="#zip" role="tab" aria-controls="zip" aria-selected="false">
-                <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Select Bank</option>
+              <a class="nav-link" id="zip-tab" data-toggle="tab" href="#zip" role="tab" aria-controls="zip"
+                aria-selected="false">
+                <!-- <select class="form-control m-form-control border-none" name="" id="">
+
+                </select> -->
+
+                <select title="Select your spell" class="form-control m-form-control border-none">
+                  <option>Select...</option>
+                  <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">Eye of Medusa</option>
+                  <option data-icon="glyphicon glyphicon-fire" data-subtext="area damage">Rain of Fire</option>
                 </select>
+
               </a>
             </li>
-           
+
 
 
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="bank" role="tabpanel" aria-labelledby="bank-tab">
-              
+
               <form>
                 <div class="input-group mt-2">
-                  <input type="text" class="form-control" placeholder="You country">
+                  <input type="text" class="form-control custom-form" placeholder="You country">
                   <div class="input-group-append">
-                    <span class="input-group-text">Search</span>
+                    <span class="input-group-text search-btn"> <i class="fa fa-search"></i></span>
                   </div>
                 </div>
-                </form>
+              </form>
 
             </div>
             <div class="tab-pane fade" id="branch" role="tabpanel" aria-labelledby="branch-tab">
@@ -305,18 +306,272 @@
                 <div class="input-group mt-2">
                   <input type="text" class="form-control" placeholder="Branch">
                   <div class="input-group-append">
-                    <span class="input-group-text">Search</span>
+                    <span class="input-group-text">
+                      <i class="fa fa-search"></i>
+                    </span>
                   </div>
                 </div>
-                </form>
-                
+              </form>
+
             </div>
-            <div class="tab-pane fade" id="city" role="tabpanel" aria-labelledby="city-tab">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime neque necessitatibus ullam sed, eveniet eaque dolores labore corporis enim animi consequuntur aut voluptatibus earum atque numquam natus quia quasi officia!</div>
+            <div class="tab-pane fade" id="city" role="tabpanel" aria-labelledby="city-tab">Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Maxime neque necessitatibus ullam sed, eveniet eaque dolores labore corporis
+              enim animi consequuntur aut voluptatibus earum atque numquam natus quia quasi officia!</div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- Ad -->
+
+  <section class="section">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <!-- End of Col-md-12 -->
+
+        <div class="col-md-12">
+
+          <div class="ad">
+            <img class="img-fluid" src="./img/ad.png" alt="ad">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tabs  -->
+
+  <!-- Tabs -->
+  <section id="tabs" class="section-bank-category">
+    <div class="container">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-12 ">
+          <nav>
+            <div class="nav nav-tabs nav-fill bank-category-tab" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link bank-category-ac active" id="nav-govt-bank-tab" data-toggle="tab"
+                href="#nav-govt-bank" role="tab" aria-controls="nav-govt-bank" aria-selected="true">Govt Bank</a>
+              <a class="nav-item nav-link" id="private-bank-tab" data-toggle="tab" href="#private-bank" role="tab"
+                aria-controls="private-bank" aria-selected="false">Privete Bank</a>
+
+            </div>
+          </nav>
+          <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-govt-bank" role="tabpanel"
+              aria-labelledby="nav-govt-bank-tab">
+              <div class="container tab-container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- break -->
+                  <div class="col-12 p-2"></div>
+                  <!-- row 2 -->
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="private-bank" role="tabpanel" aria-labelledby="private-bank-tab">
+              <div class="container tab-container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/bb_(1).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- break -->
+                  <div class="col-12 p-2"></div>
+                  <!-- row 2 -->
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-dark bg-light">
+                      <div class="text-center bank-category-image">
+                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
+                        <h5 class="card-title">Banner Bank</h5>
+                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-block btn-info btn-load-more mt-4">Load More</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./Tabs -->
 
 
   <!-- Tanvir Html -->

@@ -325,8 +325,8 @@ textarea {
 
 /* Slider */
 .section {
-	padding-top: 80px;
-	padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 
@@ -337,7 +337,7 @@ textarea {
 
 .btn {
 	border-radius: 0px;
-	
+
 }
 
 
@@ -367,19 +367,23 @@ textarea {
 
 .nav-tabs .nav-link {
 	border: none !important;
-	
+
 }
 
 select {
-  
+
   /* font-size: 16px; */
-  border: 1px solid #CCC;
-  height: 50px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) 96% / 15% no-repeat #EEE;
+  /* border: 1px solid #CCC; */
+  /* height: 50px; */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none;  */
+  /* background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) 96% / 15% no-repeat #EEE; */
+  /* background: url(../img/down_arrow.png) 96% / 15% no-repeat #EEE; */
+  /* background: url(../img/arrow-.png) 96% / 15% no-repeat #EEE; */
 }
+
+
 
 .form-control.m-form-control.border-none {
 	padding-right: 31px;
@@ -391,9 +395,130 @@ select {
 	border-color: #dee2e6 #dee2e6 #fff;
 }
 .form-control:focus {
-  border-color: #28a745;
+  border-color: #00ccff;
   box-shadow: none;
   background-color: transparent !important;
+}
+.input-group-text {
+  background: #00ccff;
+  width: 120px;
+
+}
+
+.input-group-text i {
+  color: white;
+  margin: 0 auto;
+}
+
+
+.custom-form, .search-btn {
+  border-radius: 0px;
+}
+
+
+/* Custom select */
+
+ /* The container must be positioned relative: */
+ .custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Category  */
+.bank-category-tab {
+  border-bottom: none;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  color: #f9f9f9;
+  background-color: #00ccff;
+  border-color: transparent;
+  border-radius: 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: #f1f5f7;
+  border-bottom: 1px solid #00ccff !important;
+  border-top: 1px solid #00ccff !important;
+  border-left: 1px solid #00ccff !important;
+
+}
+
+
+.tab-container {
+
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+.text-center.bank-category-image {
+  padding-top: 20px;
+  padding-bottom: 20PX;
+}
+
+.section-bank-category{
+  margin-bottom: 70px;
+}
+
+.btn-load-more {
+  background-color: #00ccff;
+  border-radius: 0px !important;
 }
 
 /* Tanvir Css */
