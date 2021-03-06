@@ -1,618 +1,1947 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bank Dir</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="theme-color" content="#fafafa" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Bank Dir</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
-  <meta name="theme-color" content="#fafafa" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link rel="manifest" href="site.webmanifest" />
-  <link rel="apple-touch-icon" href="icon.png" />
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-success"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Country
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">USA</a>
-              <a class="dropdown-item" href="#">UK</a>
-              <a class="dropdown-item" href="#">Canada</a>
-            </div>
-          </li>
-        </ul>
-        <p class="top-nav-email">bankinfo@gmail.com</p>
-        <div class="social">
-          <i class="fa fa-facebook"> </i>
-          <i class="fa fa-twitter"> </i>
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <div class="top-line"></div>
-  <header>
+  <body>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="logo">
-          <a class="navbar-brand" href="#">Bankdir</a>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-success"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto ml-auto-custom">
-            <li class="nav-item">
-              <a class="nav-link">Bank</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link">Bank List</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link">Blogs</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link">Privacy Policy</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link">Contact</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Country
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">USA</a>
+                <a class="dropdown-item" href="#">UK</a>
+                <a class="dropdown-item" href="#">Canada</a>
+              </div>
             </li>
           </ul>
+          <p class="top-nav-email">bankinfo@gmail.com</p>
+          <div class="social">
+            <i class="fa fa-facebook"> </i>
+            <i class="fa fa-twitter"> </i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </div>
         </div>
       </nav>
     </div>
-  </header>
-  <!-- slieder -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <!-- End of Col-md-12 -->
-        <div class="col-md-12">
-          <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <h2 class="slider-title"> <span
-                            style="border-left: 2px solid #00CCFF; padding-left: 5px;">50</span> Category <span
-                            style="border-bottom: 2px solid #00CCFF; padding-bottom: 5px;">Banks</span></h2>
-                        <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Maxime neque necessitatibus ullam sed, eveniet
-                          eaque dolores labore corporis enim animi
-                          consequuntur aut voluptatibus earum atque numquam
-                          natus quia quasi officia!
-                        </p>
-                        <button class="btn btn-info mt-4 mt-4">Read More</button>
-                      </div>
-                      <!-- End of Col-md-8 -->
-
-                      <div class="col-md-4">
-                        <img src="https://fakeimg.pl/350x200/fc2525/fff,255/?text=Slider&font=lobster"
-                          class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236" />
-                      </div>
-                      <!-- End of Col-md-4 -->
-                    </div>
-                    <!-- End of Row -->
-                  </div>
-                  <!-- End of Carousel Item 1 -->
-
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <h2 class="slider-title"> <span
-                            style="border-left: 2px solid #00CCFF; padding-left: 5px;">50</span> Category <span
-                            style="border-bottom: 2px solid #00CCFF; padding-bottom: 5px;">Banks</span></h2>
-
-                        <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Maxime neque necessitatibus ullam sed, eveniet
-                          eaque dolores labore corporis enim animi
-                          consequuntur aut voluptatibus earum atque numquam
-                          natus quia quasi officia!
-                        </p>
-                        <button class="btn btn-info mt-4">Read More</button>
-                      </div>
-                      <!-- End of Col-md-8 -->
-
-                      <div class="col-md-4">
-                        <img class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236"
-                          src="https://fakeimg.pl/350x200/1d6d28/fff,255/?text=Problem?&font=lobster"
-                          alt="Second slide" />
-                      </div>
-                      <!-- End of Col-md-4 -->
-                    </div>
-                    <!-- End of Row -->
-                  </div>
-                  <!-- End of Carousel Item 2 -->
-
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <h2 class="slider-title"> <span
-                            style="border-left: 2px solid #00CCFF; padding-left: 5px;">50</span> Category <span
-                            style="border-bottom: 2px solid #00CCFF; padding-bottom: 5px;">Banks</span></h2>
-
-                        <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Maxime neque necessitatibus ullam sed, eveniet
-                          eaque dolores labore corporis enim animi
-                          consequuntur aut voluptatibus earum atque numquam
-                          natus quia quasi officia!
-                        </p>
-
-                        <button class="btn btn-info mt-4">Read More</button>
-                      </div>
-                      <!-- End of Col-md-8 -->
-
-                      <div class="col-md-4">
-                        <img class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236"
-                          src="https://fakeimg.pl/350x200/3881ff/fff,255/?text=Solution Here :)&font=lobster"
-                          alt="Third slide" />
-                      </div>
-                      <!-- End of Col-md-4 -->
-                    </div>
-                    <!-- End of Row -->
-                  </div>
-                  <!-- End of Carousel Item 3 -->
-                </div>
-                <!-- End of Carousel Inner -->
-              </div>
-              <!-- End of Col-md-12 -->
-
-
-              <!-- End of Col-md-12 -->
-            </div>
-            <!-- End of Row -->
+    <div class="top-line"></div>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="logo">
+            <a class="navbar-brand" href="#">Bankdir</a>
           </div>
-          <!-- End of carouselExample-->
-        </div>
-        <!-- End of Col-md-12 -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto ml-auto-custom">
+              <li class="nav-item">
+                <a class="nav-link">Bank</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">Bank List</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">Blogs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">Privacy Policy</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <!-- End of Row -->
-    </div>
-    <!-- End of Container -->
-  </section>
+    </header>
+    <!-- slieder -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <!-- End of Col-md-12 -->
+          <div class="col-md-12">
+            <div
+              id="carouselExample"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h2 class="slider-title">
+                            <span
+                              style="
+                                border-left: 2px solid #00ccff;
+                                padding-left: 5px;
+                              "
+                              >50</span
+                            >
+                            Category
+                            <span
+                              style="
+                                border-bottom: 2px solid #00ccff;
+                                padding-bottom: 5px;
+                              "
+                              >Banks</span
+                            >
+                          </h2>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Maxime neque necessitatibus ullam sed, eveniet
+                            eaque dolores labore corporis enim animi
+                            consequuntur aut voluptatibus earum atque numquam
+                            natus quia quasi officia!
+                          </p>
+                          <button class="btn btn-info mt-4 mt-4">
+                            Read More
+                          </button>
+                        </div>
+                        <!-- End of Col-md-8 -->
 
+                        <div class="col-md-4">
+                          <img
+                            src="https://fakeimg.pl/350x200/fc2525/fff,255/?text=Slider&font=lobster"
+                            class="d-block w-100 rounded"
+                            alt="Cinque Terre"
+                            width="304"
+                            height="236"
+                          />
+                        </div>
+                        <!-- End of Col-md-4 -->
+                      </div>
+                      <!-- End of Row -->
+                    </div>
+                    <!-- End of Carousel Item 1 -->
 
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h2 class="slider-title">
+                            <span
+                              style="
+                                border-left: 2px solid #00ccff;
+                                padding-left: 5px;
+                              "
+                              >50</span
+                            >
+                            Category
+                            <span
+                              style="
+                                border-bottom: 2px solid #00ccff;
+                                padding-bottom: 5px;
+                              "
+                              >Banks</span
+                            >
+                          </h2>
 
-  <!-- Search -->
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Maxime neque necessitatibus ullam sed, eveniet
+                            eaque dolores labore corporis enim animi
+                            consequuntur aut voluptatibus earum atque numquam
+                            natus quia quasi officia!
+                          </p>
+                          <button class="btn btn-info mt-4">Read More</button>
+                        </div>
+                        <!-- End of Col-md-8 -->
 
+                        <div class="col-md-4">
+                          <img
+                            class="d-block w-100 rounded"
+                            alt="Cinque Terre"
+                            width="304"
+                            height="236"
+                            src="https://fakeimg.pl/350x200/1d6d28/fff,255/?text=Problem?&font=lobster"
+                            alt="Second slide"
+                          />
+                        </div>
+                        <!-- End of Col-md-4 -->
+                      </div>
+                      <!-- End of Row -->
+                    </div>
+                    <!-- End of Carousel Item 2 -->
 
-  <section class="">
-    <div class="container">
-      <div class="row">
-        <!-- End of Col-md-12 -->
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h2 class="slider-title">
+                            <span
+                              style="
+                                border-left: 2px solid #00ccff;
+                                padding-left: 5px;
+                              "
+                              >50</span
+                            >
+                            Category
+                            <span
+                              style="
+                                border-bottom: 2px solid #00ccff;
+                                padding-bottom: 5px;
+                              "
+                              >Banks</span
+                            >
+                          </h2>
 
-        <div class="col-md-12">
-          <ul class="nav nav-tabs tab-ul-bg" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="bank-tab" data-toggle="tab" href="#bank" role="tab" aria-controls="bank"
-                aria-selected="true">
-                <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Bank</option>
-                  <option value="">Bank One</option>
-                  <option value="">Bank One</option>
-                  <option value="">Bank One</option>
-                  <option value="">Bank One</option>
-                  <option value="">Bank One</option>
-                  <option value="">Bank One</option>
-                </select>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Maxime neque necessitatibus ullam sed, eveniet
+                            eaque dolores labore corporis enim animi
+                            consequuntur aut voluptatibus earum atque numquam
+                            natus quia quasi officia!
+                          </p>
 
+                          <button class="btn btn-info mt-4">Read More</button>
+                        </div>
+                        <!-- End of Col-md-8 -->
 
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch"
-                aria-selected="false">
-                <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">Branch</option>
-                  <option value="">Branch One</option>
-                  <option value="">Branch One</option>
-                  <option value="">Branch One</option>
-                  <option value="">Branch One</option>
+                        <div class="col-md-4">
+                          <img
+                            class="d-block w-100 rounded"
+                            alt="Cinque Terre"
+                            width="304"
+                            height="236"
+                            src="https://fakeimg.pl/350x200/3881ff/fff,255/?text=Solution Here :)&font=lobster"
+                            alt="Third slide"
+                          />
+                        </div>
+                        <!-- End of Col-md-4 -->
+                      </div>
+                      <!-- End of Row -->
+                    </div>
+                    <!-- End of Carousel Item 3 -->
+                  </div>
+                  <!-- End of Carousel Inner -->
+                </div>
+                <!-- End of Col-md-12 -->
 
-                </select>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="city-tab" data-toggle="tab" href="#city" role="tab" aria-controls="city"
-                aria-selected="false">
-                <select class="form-control m-form-control border-none" name="" id="">
-                  <option value="">City</option>
-                  <option value="">City One</option>
-                  <option value="">City One</option>
-                  <option value="">City One</option>
-                  <option value="">City One</option>
-                  <option value="">City One</option>
-                  <option value="">City One</option>
+                <!-- End of Col-md-12 -->
+              </div>
+              <!-- End of Row -->
+            </div>
+            <!-- End of carouselExample-->
+          </div>
+          <!-- End of Col-md-12 -->
+        </div>
+        <!-- End of Row -->
+      </div>
+      <!-- End of Container -->
+    </section>
 
-                </select>
+    <!-- Search -->
 
-              </a>
-            </li>
+    <section class="">
+      <div class="container">
+        <div class="row">
+          <!-- End of Col-md-12 -->
 
-            <li class="nav-item">
-              <a class="nav-link" id="zip-tab" data-toggle="tab" href="#zip" role="tab" aria-controls="zip"
-                aria-selected="false">
-                <!-- <select class="form-control m-form-control border-none" name="" id="">
+          <div class="col-md-12">
+            <ul class="nav nav-tabs tab-ul-bg" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="bank-tab"
+                  data-toggle="tab"
+                  href="#bank"
+                  role="tab"
+                  aria-controls="bank"
+                  aria-selected="true"
+                >
+                  <select
+                    class="form-control m-form-control border-none"
+                    name=""
+                    id=""
+                  >
+                    <option value="">Bank</option>
+                    <option value="">Bank One</option>
+                    <option value="">Bank One</option>
+                    <option value="">Bank One</option>
+                    <option value="">Bank One</option>
+                    <option value="">Bank One</option>
+                    <option value="">Bank One</option>
+                  </select>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="branch-tab"
+                  data-toggle="tab"
+                  href="#branch"
+                  role="tab"
+                  aria-controls="branch"
+                  aria-selected="false"
+                >
+                  <select
+                    class="form-control m-form-control border-none"
+                    name=""
+                    id=""
+                  >
+                    <option value="">Branch</option>
+                    <option value="">Branch One</option>
+                    <option value="">Branch One</option>
+                    <option value="">Branch One</option>
+                    <option value="">Branch One</option>
+                  </select>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="city-tab"
+                  data-toggle="tab"
+                  href="#city"
+                  role="tab"
+                  aria-controls="city"
+                  aria-selected="false"
+                >
+                  <select
+                    class="form-control m-form-control border-none"
+                    name=""
+                    id=""
+                  >
+                    <option value="">City</option>
+                    <option value="">City One</option>
+                    <option value="">City One</option>
+                    <option value="">City One</option>
+                    <option value="">City One</option>
+                    <option value="">City One</option>
+                    <option value="">City One</option>
+                  </select>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="zip-tab"
+                  data-toggle="tab"
+                  href="#zip"
+                  role="tab"
+                  aria-controls="zip"
+                  aria-selected="false"
+                >
+                  <!-- <select class="form-control m-form-control border-none" name="" id="">
 
                 </select> -->
 
-                <select title="Select your spell" class="form-control m-form-control border-none">
-                  <option>Select...</option>
-                  <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">Eye of Medusa</option>
-                  <option data-icon="glyphicon glyphicon-fire" data-subtext="area damage">Rain of Fire</option>
-                </select>
-
-              </a>
-            </li>
-
-
-
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="bank" role="tabpanel" aria-labelledby="bank-tab">
-
-              <form>
-                <div class="input-group mt-2">
-                  <input type="text" class="form-control custom-form" placeholder="You country">
-                  <div class="input-group-append">
-                    <span class="input-group-text search-btn"> <i class="fa fa-search"></i></span>
+                  <select
+                    title="Select your spell"
+                    class="form-control m-form-control border-none"
+                  >
+                    <option>Select...</option>
+                    <option
+                      data-icon="glyphicon glyphicon-eye-open"
+                      data-subtext="petrification"
+                    >
+                      Eye of Medusa
+                    </option>
+                    <option
+                      data-icon="glyphicon glyphicon-fire"
+                      data-subtext="area damage"
+                    >
+                      Rain of Fire
+                    </option>
+                  </select>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="bank"
+                role="tabpanel"
+                aria-labelledby="bank-tab"
+              >
+                <form>
+                  <div class="input-group mt-2">
+                    <input
+                      type="text"
+                      class="form-control custom-form"
+                      placeholder="You country"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text search-btn">
+                        <i class="fa fa-search"></i
+                      ></span>
+                    </div>
                   </div>
-                </div>
-              </form>
-
-            </div>
-            <div class="tab-pane fade" id="branch" role="tabpanel" aria-labelledby="branch-tab">
-              <form>
-                <div class="input-group mt-2">
-                  <input type="text" class="form-control" placeholder="Branch">
-                  <div class="input-group-append">
-                    <span class="input-group-text">
-                      <i class="fa fa-search"></i>
-                    </span>
+                </form>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="branch"
+                role="tabpanel"
+                aria-labelledby="branch-tab"
+              >
+                <form>
+                  <div class="input-group mt-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Branch"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">
+                        <i class="fa fa-search"></i>
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </form>
-
+                </form>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="city"
+                role="tabpanel"
+                aria-labelledby="city-tab"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+                neque necessitatibus ullam sed, eveniet eaque dolores labore
+                corporis enim animi consequuntur aut voluptatibus earum atque
+                numquam natus quia quasi officia!
+              </div>
             </div>
-            <div class="tab-pane fade" id="city" role="tabpanel" aria-labelledby="city-tab">Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit. Maxime neque necessitatibus ullam sed, eveniet eaque dolores labore corporis
-              enim animi consequuntur aut voluptatibus earum atque numquam natus quia quasi officia!</div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Ad -->
 
-  <!-- Ad -->
+    <section class="section">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <!-- End of Col-md-12 -->
 
-  <section class="section">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <!-- End of Col-md-12 -->
-
-        <div class="col-md-12">
-
-          <div class="ad">
-            <img class="img-fluid" src="./img/ad.png" alt="ad">
+          <div class="col-md-12">
+            <div class="ad">
+              <img class="img-fluid" src="./img/ad.png" alt="ad" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Tabs  -->
 
-  <!-- Tabs  -->
+    <!-- Tabs -->
+    <section id="tabs" class="section-bank-category">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12">
+            <nav>
+              <div
+                class="nav nav-tabs nav-fill bank-category-tab"
+                id="nav-tab"
+                role="tablist"
+              >
+                <a
+                  class="nav-item nav-link bank-category-ac active"
+                  id="nav-govt-bank-tab"
+                  data-toggle="tab"
+                  href="#nav-govt-bank"
+                  role="tab"
+                  aria-controls="nav-govt-bank"
+                  aria-selected="true"
+                  >Govt Bank</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="private-bank-tab"
+                  data-toggle="tab"
+                  href="#private-bank"
+                  role="tab"
+                  aria-controls="private-bank"
+                  aria-selected="false"
+                  >Privete Bank</a
+                >
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-govt-bank"
+                role="tabpanel"
+                aria-labelledby="nav-govt-bank-tab"
+              >
+                <div class="container tab-container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
 
-  <!-- Tabs -->
-  <section id="tabs" class="section-bank-category">
-    <div class="container">
+                    <!-- break -->
+                    <div class="col-12 p-2"></div>
+                    <!-- row 2 -->
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/zenith (2).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="private-bank"
+                role="tabpanel"
+                aria-labelledby="private-bank-tab"
+              >
+                <div class="container tab-container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/bb_(1).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
+                      </div>
+                    </div>
 
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-12 ">
-          <nav>
-            <div class="nav nav-tabs nav-fill bank-category-tab" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link bank-category-ac active" id="nav-govt-bank-tab" data-toggle="tab"
-                href="#nav-govt-bank" role="tab" aria-controls="nav-govt-bank" aria-selected="true">Govt Bank</a>
-              <a class="nav-item nav-link" id="private-bank-tab" data-toggle="tab" href="#private-bank" role="tab"
-                aria-controls="private-bank" aria-selected="false">Privete Bank</a>
-
-            </div>
-          </nav>
-          <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-govt-bank" role="tabpanel"
-              aria-labelledby="nav-govt-bank-tab">
-              <div class="container tab-container">
-                <div class="row">
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <!-- break -->
+                    <div class="col-12 p-2"></div>
+                    <!-- row 2 -->
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img src="img/zenith (2).png" alt="logo" />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- break -->
-                  <div class="col-12 p-2"></div>
-                  <!-- row 2 -->
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col">
+                      <div class="card card-dark bg-light">
+                        <div class="text-center bank-category-image">
+                          <img
+                            class="img-fluid"
+                            src="img/zenith (2).png"
+                            alt="logo"
+                          />
+                          <h5 class="card-title">Banner Bank</h5>
+                          <p class="card-text bank-br-info">
+                            74 Branches in 17 Cities
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
+              <button class="btn btn-block btn-info btn-load-more mt-4">
+                Load More
+              </button>
             </div>
-            <div class="tab-pane fade" id="private-bank" role="tabpanel" aria-labelledby="private-bank-tab">
-              <div class="container tab-container">
-                <div class="row">
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/bb_(1).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
-                      </div>
-                    </div>
-                  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./Tabs -->
 
-                  <!-- break -->
-                  <div class="col-12 p-2"></div>
-                  <!-- row 2 -->
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+    <!-- State -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <!-- End of Col-md-12 -->
+          <div class="col-md-12">
+            <h3>
+              <i class="fa fa-bank"> </i>
+              <small class="text-info">Top State</small>
+            </h3>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-block btn-info btn-load-more mt-4">
+          Load More
+        </button>
+      </div>
+    </section>
+
+    <!-- Cities -->
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <!-- End of Col-md-12 -->
+          <div class="col-md-12">
+            <h3>
+              <i class="fa fa-bank"> </i>
+              <small class="text-info">Top City</small>
+            </h3>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col state">
+            <div
+              class="card flex border-top-0"
+              data-sr-id="10"
+              style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              "
+            >
+              <div class="card-body">
+                <div class="d-flex align-items-center text-hover-success">
+                  <div class="avatar w-56 no-shadow gd-success">
+                    <i class="fa fa-map"> </i>
+                  </div>
+                  <div class="px-2 flex">
+                    <h5>
+                      <span class="text-info">Houston</span> <br />
+                      <small style="font-size: 15px">50 Banks 65 Branch</small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-block btn-info btn-load-more mt-4">
+          Load More
+        </button>
+      </div>
+    </section>
+
+    <!-- Blog -->
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <!-- End of Col-md-12 -->
+          <div class="col-md-12">
+            <h3>
+              <i class="fa fa-bank"> </i>
+              <small class="text-info">Blogs</small>
+            </h3>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-right">
+            <a
+              class="btn btn-primary mb-3 mr-1"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a
+              class="btn btn-primary mb-3"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div
+              id="carouselExampleIndicators2"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card card-dark bg-light">
-                      <div class="text-center bank-category-image">
-                        <img class="img-fluid" src="img/zenith (2).png" alt="logo">
-                        <h5 class="card-title">Banner Bank</h5>
-                        <p class="card-text bank-br-info">74 Branches in 17 Cities</p>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <button class="btn btn-block btn-info btn-load-more mt-4">Load More</button>
-
           </div>
-
         </div>
       </div>
-    </div>
-  </section>
-  <!-- ./Tabs -->
+    </section>
 
+    <!-- Subscription  -->
 
-  <!-- Tanvir Html -->
+    <section class="home-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="single">
+              <h2>Subscribe to our Newsletter</h2>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <span class="input-group-btn">
+                  <button class="btn btn-theme" type="submit">Subscribe</button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Tanvir Html -->
+    <!-- Tanvir Html -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
-    crossorigin="anonymous"></script>
+    <!-- Tanvir Html -->
 
-  <script src="js/main.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".item").addClass("animated slideInUp");
-    });
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+      integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+      crossorigin="anonymous"
+    ></script>
 
-  </script>
+    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".item").addClass("animated slideInUp");
+      });
+    </script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments);
-    };
-    ga.q = [];
-    ga.l = +new Date();
-    ga("create", "UA-XXXXX-Y", "auto");
-    ga("set", "anonymizeIp", true);
-    ga("set", "transport", "beacon");
-    ga("send", "pageview");
-
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>

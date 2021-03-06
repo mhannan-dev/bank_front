@@ -521,6 +521,165 @@ select {
   border-radius: 0px !important;
 }
 
+
+/* State  */
+
+.state-box {
+  height: 80px;
+  margin: 10px;
+}
+
+
+.location-icon {
+  float: left;
+  padding-top: 30px;
+  padding-right: 5px;
+}
+
+.location-icon i {
+  font-size: 30px;
+  padding-left: 15px;
+  padding-top: 32px;
+  float: left;
+  text-align: center;
+}
+
+.state-head {
+  float: left;
+  padding-left: 10px;
+  color: #00CCFF;
+}
+
+.state-para {
+  font-size: 14px;
+  float: right;
+
+}
+
+
+/* --- */
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+
+
+
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: .5rem;
+}
+@media (max-width:991.98px) {
+  .padding {
+      padding: 1rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+      padding: 1rem
+  }
+}
+
+
+
+.block {
+  background: #fff;
+  border-width: 0;
+  border-radius: .25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+  margin-bottom: 1.5rem
+}
+
+.avatar {
+  position: relative;
+  line-height: 1;
+  border-radius: 500px;
+  white-space: nowrap;
+  font-weight: 700;
+  border-radius: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 500px;
+  box-shadow: 0 5px 10px 0 rgba(50, 50, 50, .15)
+}
+
+.avatar img {
+  border-radius: inherit;
+  width: 100%
+}
+
+.no-shadow {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important
+}
+
+.w-56 {
+  width: 30px !important;
+  height: 30px !important
+}
+
+.gd-success {
+  color: #fff;
+  border: none;
+  background: #10cdd7 linear-gradient(45deg, #15b5bd, #13d2db);
+}
+
+
+/* Blog Slider */
+
+
+.btn.btn-primary.mb-3, .btn.btn-primary.mb-3.mr-1 {
+  background: #11bee6;
+  border: 0px;
+}
+
+/* Newsletter */
+
+
+.home-newsletter {
+  padding: 80px 0;
+  background: #1babd7;
+}
+
+  .home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+  .home-newsletter .single h2 {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px; }
+  .home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px; }
+  .home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f; }
+  .home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #243c4f;
+  color: #fff;
+  }
+
+
 /* Tanvir Css */
 
 
