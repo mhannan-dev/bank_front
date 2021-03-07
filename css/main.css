@@ -763,10 +763,52 @@ select {
   text-decoration: none;
 }
 
+/* Bank pfoile */
+/* Adv */
 
-/* Tanvir Css */
+.fa.fa-user.bank-profile-icon {
+  font-size: 55px;
+  float: left;
+  color: #00CCFF;
+
+}
+
+.bank-title {
+  padding-left: 70px;
+  padding-top: 5px;
+  color: #00CCFF;
+}
+
+.row.border.d-flex.justify-content-center {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bank-info {
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+.bank-contact i{
+  color: #00CCFF;
+}
+
+.contact-info {
+
+  padding-left: 20px;
+}
 
 
+.bank-pro-line {
+  border: 2px solid red;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
 
 
-/* Tanvir Css */
+.text-uppercase.mb-0.big-footer-heading {
+  color: #00ccff;
+  padding-bottom: 5px;
+}
