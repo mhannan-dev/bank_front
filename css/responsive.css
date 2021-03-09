@@ -1,16 +1,47 @@
-@media only screen and (max-width: 1200px) {}
+@media only screen and (min-width: 1200px) {}
 
-@media only screen and (max-width: 100px) {}
+@media only screen and (min-width: 100px) {}
 
-@media only screen and (max-width: 980px) {}
+@media only screen and (min-width: 980px) {}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (min-width: 768px) {}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (min-width: 500px) {
+  .btn.btn-info.mt-4 {
+    margin-bottom: 10px;
+  }
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col {
+  margin-bottom: 10px;
+}
+.section-bank-category {
+  margin-bottom: 33px;
+}
+}
 
-@media only screen and (max-width: 414px) {}
+@media only screen and (min-width: 450px) {
+  .btn.btn-info.mt-4 {
+    margin-bottom: 10px;
+  }
 
-@media only screen and (max-width: 400px) {
+  .col {
+    margin-bottom: 10px;
+  }
+  .section-bank-category {
+    margin-bottom: 33px;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+}
+
+@media only screen and (min-width: 400px) {
   .btn.btn-info.mt-4 {
     margin-bottom: 10px;
   }
@@ -34,7 +65,7 @@
 }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) {
 
   /* Here is oky */
   .btn.btn-info.mt-4 {
