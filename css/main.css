@@ -269,10 +269,14 @@ textarea {
 
 /* Top nav */
 
-.top-line {
-  border: .5px solid #13C3EA;
-  margin-left: 98px;
-  margin-right: 396px;
+.hr-color {
+  background: #13C3EA;
+}
+
+
+.top-nav-container {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 
@@ -315,10 +319,6 @@ textarea {
 
 /* Navbar */
 
-.ml-auto,
-.mx-auto .ml-auto-custom {
-  margin-left: 680px !important;
-}
 
 .navbar-light .navbar-brand {
   color: #00CCFF;

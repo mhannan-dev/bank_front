@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 100px) {}
+
+@media only screen and (max-width: 980px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 414px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 300px) {
+  /* Here is oky */
+  .btn.btn-info.mt-4 {
+    margin-bottom: 10px;
+  }
+  .tab-ul-bg {
+    background: #12c5f1;
+    border: 1px solid #05647c;
+  }
+
+  .col {
+    margin-bottom: 10px;
+  }
+
+  .card-body {
+    margin-bottom: 20px;
+  }
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-bank-category {
+    margin-bottom: 10px;
+  }
+}
+
+

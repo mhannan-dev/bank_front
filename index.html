@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-
 <head>
   <meta charset="utf-8" />
   <title>Bank Dir</title>
@@ -17,7 +16,6 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="manifest" href="site.webmanifest" />
   <link rel="apple-touch-icon" href="icon.png" />
-  <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" />
@@ -25,23 +23,23 @@
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
-
 <body>
-  <div class="container-fluid">
+  <div class="container top-nav-container">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#first_nav_text"
+        aria-controls="first_nav_text" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-success"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="collapse navbar-collapse" id="first_nav_text">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="first_top_menu" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Country
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="first_top_menu">
               <a class="dropdown-item" href="#">USA</a>
               <a class="dropdown-item" href="#">UK</a>
               <a class="dropdown-item" href="#">Canada</a>
@@ -57,14 +55,17 @@
       </div>
     </nav>
   </div>
-  <div class="top-line"></div>
+  <section>
+    <div class="container">
+      <hr class="hr-color">
+    </div>
+  </section>
   <header>
-    <div class="container-fluid">
+    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="logo">
-          <a class="navbar-brand" href="#">Bankdir</a>
+          <a class="navbar-brand" href="index.html">Bankdir</a>
         </div>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -77,21 +78,15 @@
             <li class="nav-item">
               <a class="nav-link" href="bank-branch.html">Branch</a>
             </li>
-
-            
-
             <li class="nav-item">
               <a class="nav-link">Blogs</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link">About</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link">Privacy Policy</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link">Contact</a>
             </li>
@@ -136,7 +131,6 @@
                         </button>
                       </div>
                       <!-- End of Col-md-8 -->
-
                       <div class="col-md-4">
                         <img src="https://fakeimg.pl/350x200/fc2525/fff,255/?text=Slider&font=lobster"
                           class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236" />
@@ -146,7 +140,6 @@
                     <!-- End of Row -->
                   </div>
                   <!-- End of Carousel Item 1 -->
-
                   <div class="carousel-item">
                     <div class="row">
                       <div class="col-md-8">
@@ -161,7 +154,6 @@
                                 padding-bottom: 5px;
                               ">Banks</span>
                         </h2>
-
                         <p>
                           Lorem ipsum dolor, sit amet consectetur adipisicing
                           elit. Maxime neque necessitatibus ullam sed, eveniet
@@ -172,7 +164,6 @@
                         <button class="btn btn-info mt-4">Read More</button>
                       </div>
                       <!-- End of Col-md-8 -->
-
                       <div class="col-md-4">
                         <img class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236"
                           src="https://fakeimg.pl/350x200/1d6d28/fff,255/?text=Problem?&font=lobster"
@@ -183,7 +174,6 @@
                     <!-- End of Row -->
                   </div>
                   <!-- End of Carousel Item 2 -->
-
                   <div class="carousel-item">
                     <div class="row">
                       <div class="col-md-8">
@@ -198,7 +188,6 @@
                                 padding-bottom: 5px;
                               ">Banks</span>
                         </h2>
-
                         <p>
                           Lorem ipsum dolor, sit amet consectetur adipisicing
                           elit. Maxime neque necessitatibus ullam sed, eveniet
@@ -206,11 +195,9 @@
                           consequuntur aut voluptatibus earum atque numquam
                           natus quia quasi officia!
                         </p>
-
                         <button class="btn btn-info mt-4">Read More</button>
                       </div>
                       <!-- End of Col-md-8 -->
-
                       <div class="col-md-4">
                         <img class="d-block w-100 rounded" alt="Cinque Terre" width="304" height="236"
                           src="https://fakeimg.pl/350x200/3881ff/fff,255/?text=Solution Here :)&font=lobster"
@@ -225,7 +212,6 @@
                 <!-- End of Carousel Inner -->
               </div>
               <!-- End of Col-md-12 -->
-
               <!-- End of Col-md-12 -->
             </div>
             <!-- End of Row -->
@@ -238,14 +224,11 @@
     </div>
     <!-- End of Container -->
   </section>
-
   <!-- Search -->
-
   <section class="">
     <div class="container">
       <div class="row">
         <!-- End of Col-md-12 -->
-
         <div class="col-md-12">
           <ul class="nav nav-tabs tab-ul-bg" id="myTab" role="tablist">
             <li class="nav-item">
@@ -288,14 +271,11 @@
                 </select>
               </a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" id="zip-tab" data-toggle="tab" href="#zip" role="tab" aria-controls="zip"
                 aria-selected="false">
                 <!-- <select class="form-control m-form-control border-none" name="" id="">
-
                 </select> -->
-
                 <select title="Select your spell" class="form-control m-form-control border-none">
                   <option>Select...</option>
                   <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">
@@ -343,14 +323,11 @@
       </div>
     </div>
   </section>
-
   <!-- Ad -->
-
   <section class="section">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <!-- End of Col-md-12 -->
-
         <div class="col-md-12">
           <div class="ad">
             <img class="img-fluid" src="./img/ad.png" alt="ad" />
@@ -359,9 +336,7 @@
       </div>
     </div>
   </section>
-
   <!-- Tabs  -->
-
   <!-- Tabs -->
   <section id="tabs" class="section-bank-category">
     <div class="container">
@@ -435,7 +410,6 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- break -->
                   <div class="col-12 p-2"></div>
                   <!-- row 2 -->
@@ -555,7 +529,6 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- break -->
                   <div class="col-12 p-2"></div>
                   <!-- row 2 -->
@@ -617,7 +590,6 @@
                 </div>
               </div>
             </div>
-
             <button class="btn btn-block btn-info btn-load-more mt-4">
               Load More
             </button>
@@ -627,9 +599,7 @@
     </div>
   </section>
   <!-- ./Tabs -->
-
   <!-- State -->
-
   <section>
     <div class="container">
       <div class="row">
@@ -642,7 +612,6 @@
           <hr />
         </div>
       </div>
-
       <div class="row d-flex justify-content-center">
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
@@ -666,121 +635,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row d-flex justify-content-center mt-4">
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
                 visibility: visible;
@@ -893,7 +747,118 @@
             </div>
           </div>
         </div>
-
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-4">
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
                 visibility: visible;
@@ -988,9 +953,7 @@
       </button>
     </div>
   </section>
-
   <!-- Cities -->
-
   <section class="section">
     <div class="container">
       <div class="row">
@@ -1003,7 +966,6 @@
           <hr />
         </div>
       </div>
-
       <div class="row d-flex justify-content-center">
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
@@ -1027,121 +989,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row d-flex justify-content-center mt-4">
-        <div class="col state">
-          <div class="card flex border-top-0" data-sr-id="10" style="
-                visibility: visible;
-                transform: none;
-                opacity: 1;
-                transition: none 0s ease 0s;
-              ">
-            <div class="card-body">
-              <div class="d-flex align-items-center text-hover-success">
-                <div class="avatar w-56 no-shadow gd-success">
-                  <i class="fa fa-map"> </i>
-                </div>
-                <div class="px-2 flex">
-                  <h5>
-                    <span class="text-info">Houston</span> <br />
-                    <small style="font-size: 15px">50 Banks 65 Branch</small>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
                 visibility: visible;
@@ -1254,7 +1101,118 @@
             </div>
           </div>
         </div>
-
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-4">
+        <div class="col state">
+          <div class="card flex border-top-0" data-sr-id="10" style="
+                visibility: visible;
+                transform: none;
+                opacity: 1;
+                transition: none 0s ease 0s;
+              ">
+            <div class="card-body">
+              <div class="d-flex align-items-center text-hover-success">
+                <div class="avatar w-56 no-shadow gd-success">
+                  <i class="fa fa-map"> </i>
+                </div>
+                <div class="px-2 flex">
+                  <h5>
+                    <span class="text-info">Houston</span> <br />
+                    <small style="font-size: 15px">50 Banks 65 Branch</small>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col state">
           <div class="card flex border-top-0" data-sr-id="10" style="
                 visibility: visible;
@@ -1349,9 +1307,7 @@
       </button>
     </div>
   </section>
-
   <!-- Blog -->
-
   <section class="section">
     <div class="container">
       <div class="row">
@@ -1364,7 +1320,6 @@
           <hr />
         </div>
       </div>
-
       <div class="row">
         <div class="col-12 text-right">
           <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -1512,9 +1467,7 @@
       </div>
     </div>
   </section>
-
   <!-- Subscription  -->
-
   <section class="home-newsletter">
     <div class="container">
       <div class="row">
@@ -1536,19 +1489,14 @@
       </div>
     </div>
   </section>
-
-
   <section class="footer">
-
     <div class="container">
-
-
       <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footer_nav_text"
+          aria-controls="footer_nav_text" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-success"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
+        <div class="collapse navbar-collapse" id="footer_nav_text">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="top-of-footer-nav-id" data-toggle="dropdown"
@@ -1562,7 +1510,6 @@
               </div>
             </li>
           </ul>
-
           <div class="social">
             <i class="fa fa-facebook"> </i>
             <i class="fa fa-twitter"> </i>
@@ -1571,9 +1518,7 @@
         </div>
       </nav>
     </div>
-
   </section>
-
   <section>
     <div class="container">
       <div class="bottom-line"></div>
@@ -1583,20 +1528,9 @@
         </div>
       </div>
     </div>
-
   </section>
-
-
-
-
-
-
-
-
   <!-- Tanvir Html -->
-
   <!-- Tanvir Html -->
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
@@ -1609,15 +1543,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
     integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
     crossorigin="anonymous"></script>
-
   <script src="js/main.js"></script>
   <script>
     $(document).ready(function () {
       $(".item").addClass("animated slideInUp");
     });
-
   </script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () {
@@ -1629,9 +1560,7 @@
     ga("set", "anonymizeIp", true);
     ga("set", "transport", "beacon");
     ga("send", "pageview");
-
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
 </html>
