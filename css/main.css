@@ -384,6 +384,12 @@ textarea {
 
 }
 
+.form-control.m-form-control.border-none {
+  padding-right: 0px;
+  color: rgb(13, 167, 214);
+}
+
+
 select {
 
   /* font-size: 16px; */
